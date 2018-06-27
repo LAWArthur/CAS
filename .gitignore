@@ -1,0 +1,8 @@
+AppPackages/
+bin/
+bld/
+BundleArtifacts/
+Scripts/
+*.png
+*.psd
+*.jpg
