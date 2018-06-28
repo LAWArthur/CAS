@@ -18,12 +18,13 @@ $(function () {
             window.location.href = "game.html";
         }
     });
+    // 设置重绘
+    $(window).resize(function () {
+        fit();
+        draw();
+    });
 });
-// 设置重绘
-$(window).resize(function () {
-    fit();
-    draw();
-});
+
 function draw() {
     cxt.fillStyle = "#ffff99";
     for (var i = 0; i < 250; i++) {

@@ -7,10 +7,11 @@ $(function () {
     cxt = cv[0].getContext("2d");
     fit();
     setTimeout(_update, 1);
-})
-$(window).resize(function () {
-    fit();
+    $(window).resize(function () {
+        fit();
+    })
 });
+
 function fit() {
     h = window.innerHeight;
     w = window.innerWidth;
